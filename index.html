@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elevator System</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="building">
+  <div class="floor">
+    <button onclick="requestElevator(1)">1</button>
+  </div>
+  <div class="floor">
+    <button onclick="requestElevator(2)">2</button>
+  </div>
+  <div class="floor">
+    <button onclick="requestElevator(3)">3</button>
+  </div>
+  <div class="floor">
+    <button onclick="requestElevator(4)">4</button>
+  </div>
+  <div class="floor">
+    <button onclick="requestElevator(5)">5</button>
+  </div>
+</div>
+
+<div class="elevator">
+  <h2>Elevator Control Panel</h2>
+  <p>Current Floor: <span id="currentFloor">1</span></p>
+  <div class="floor-buttons">
+    <button onclick="requestFloor(1)">Floor 1</button>
+    <button onclick="requestFloor(2)">Floor 2</button>
+    <button onclick="requestFloor(3)">Floor 3</button>
+    <button onclick="requestFloor(4)">Floor 4</button>
+    <button onclick="requestFloor(5)">Floor 5</button>
+  </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
